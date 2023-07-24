@@ -1,0 +1,1053 @@
+.menu_frame{
+    height: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding : 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;   
+
+    background-color:rgb(255, 255, 255);
+    z-index: 2; /* 가장 위로 */
+}
+
+.menu_frame ul{
+    width: 1360px;
+    margin: 0 auto;
+    
+    margin-top: 15px;
+    padding: 0;
+}
+
+.menu_frame li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    cursor: pointer; /* 커서 손모양으로 바꾸기 */
+}
+
+#title{
+    width: 1519.2px;
+    height: 460px;  
+
+    /* background-image: url(image/img1_2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center; */
+
+    display: table-cell; /*이거안하면 div태그 vertical-align 안됨 */
+    text-align: center;
+    vertical-align: middle;
+
+    /* opacity: 0.5; */
+}
+
+#title::after {
+    width: 1360px;
+    height: 460px;
+    margin:auto auto;
+    content: "";
+    background: url(image/img1_2.jpg);
+    background-size: cover;
+    /* background-size: auto; */
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    position: absolute; 
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#title1_1{
+    letter-spacing:0.5em;
+    font-size: 54px;
+    text-align: center;
+    font-weight: 500;
+    color: #304659;
+
+    margin: 0 auto;
+}
+
+#title1_2{
+    letter-spacing:0.8em;
+    font-size: 20px;
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.vertical_line {
+    width: 0.1px;
+    height: 70px;
+
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    background-color: rgb(108, 108, 108);   
+}
+
+#about{
+    letter-spacing:0.1em;
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+}
+
+#img2{
+    width: 278px;
+    height: 208px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#introduction{
+    width: 672px;
+    height: 110px;
+
+    /* margin-left: 424px; */
+    margin: 0 auto;
+    
+    margin-top: 100px;
+    margin-bottom: 170px;
+
+    text-align: left;   
+}
+
+#introduction_p{
+    font-size: 18px;
+    line-height: 1.6em;
+    text-align: justify;
+    color: rgb(108, 108, 108);
+}
+
+#button_click_for_more{
+    width: 132px;
+    height: 38px;
+    margin-top: 50px;
+    margin-left: 540px;
+
+    background-color: #304659;
+    border: none;
+    text-align: center;
+}
+#button_click_for_more:hover{ 
+    background-color: rgb(100, 165, 146);
+}
+
+#portfolio{
+    width: 600px;
+    height: 26.4px;
+
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+    text-align: center;
+}
+
+#portfolio_h2{
+    font-size: 21px;
+    color: rgb(108, 108, 108);
+    text-align: center;
+}
+
+.horizontal_line{
+    width: 1369.2px;
+    height: 5px;
+
+    margin: 0 auto;
+    margin-bottom: 16px;
+
+    border-top-width: 0.8px;
+    border-top-style: solid;
+    border-color:  rgb(108, 108, 108);
+
+}
+
+.title2{
+    width: 600px;
+    height: 22.4px;
+
+    margin: 0 auto;
+
+    margin-bottom: 23px;
+}
+
+.title2_h2{
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+    text-align: center;
+}
+
+.title2_explain{
+    width: 414px;
+    height: 18.4px;
+
+    margin: 0 auto;
+    
+    margin-bottom: 10px;
+}
+
+.title2_explain_h4{
+    font-size: 15px;
+    color: rgb(160, 167, 203);
+    font-style: italic;
+    text-align: center;
+}
+
+/*********** Pick-nic ***********/
+#picknic_grid{
+    width: 1359.2px;
+    height: 1358px;
+
+    margin: 0 auto;
+
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    place-items: center;
+    grid-column-gap: 50px;
+}
+
+.picknic_grid_img{
+    width: 630px;
+    height: 630px;    
+}
+
+.picknic_img figure{
+    width: 100%; height: 100%;
+}
+
+.picknic_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: left;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.picknic_grid_p{
+    margin-left: 65px; 
+    margin-top: 255px;
+    width: 500px; 
+    height: 400px; 
+    font-size: 14px;
+}
+
+#img3_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img4_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img5_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img6_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#picknic_whd{
+    width: 140px;
+    height: 16.8px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+/********************************/
+
+#funded{
+    width: 310px;
+    height: 21.8px;
+
+    margin: 0 auto;
+    margin-bottom: 61px;
+}
+
+#funded_h4{
+    font-size: 15px;
+    color: rgb(160, 167, 203);
+    font-style: italic;
+    text-align: center;    
+}
+
+#bookchak_img{
+    width: 771px;
+    height: 514px;
+
+    margin: 0 auto;
+
+    margin-bottom: 48px;
+}
+
+#viewmore{
+    width: 142px;
+    height: 40px;
+
+    position: relative;
+    left: 419px;
+
+    margin-left: 270px;
+    margin-bottom: 10px;
+}
+
+/*********** bedtime ***********/
+#bedtime_grid{
+    width: 1359.2px;
+    height: 1358px;
+
+    margin: 0 auto;
+
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    place-items: center;
+    grid-column-gap: 50px;
+
+}
+
+.bedtime_grid_img{
+    width: 630px;
+    height: 630px;    
+}
+
+.bedtime_img figure{
+    width: 100%; height: 100%;
+}
+
+.bedtime_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: left;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.bedtime_grid_p{
+    margin-left: 65px; 
+    margin-top: 195px;
+    width: 500px; 
+    height: 400px; 
+    font-size: 14px;
+}
+
+#img8_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img9_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img10_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img11_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#bedtime_whd{
+    width: 140px;
+    height: 16.8px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+/********************************/
+
+/*********** Loi ***********/
+#Loi_grid{
+    width: 1359.2px;
+    height: 446px;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    grid-column-gap: 10px;
+
+}
+
+.Loi_grid_img{
+    width: 300px;
+    height: 450px;    
+}
+
+.Loi_img figure{
+    width: 100%; height: 100%;
+}
+
+.Loi_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: center;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.Loi_grid_p{
+    margin-left: 8px; 
+    margin-top: 200px;
+    width: 284px; 
+    font-size: 14px;
+}
+
+#img12_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img13_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img14_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#Loi_whd{
+    width: 140px;
+    height: 16.8px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+/********************************/
+
+/*********** Express ***********/
+#Express_grid{
+    width: 1369.2px;
+    height: 300px;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    grid-column-gap: 10px;
+
+}
+
+.Express_grid_img{
+    width: 450px;
+    height: 300px;    
+}
+
+.Express_img figure{
+    width: 100%; height: 100%;
+}
+
+.Express_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: left;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.Express_grid_p{
+    margin-left: 25px; 
+    margin-top: 50px;
+    width: 400px; 
+    font-size: 13px;
+}
+
+#img15_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img16_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img17_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#Express_whd{
+    width: 140px;
+    height: 16.8px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+/********************************/
+
+/*********** puzzle ***********/
+#puzzle_grid{
+    width: 1369.2px;
+    height: 300px;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    grid-column-gap: 10px;
+
+}
+
+.puzzle_grid_img{
+    width: 450px;
+    height: 300px;    
+}
+
+.puzzle_img figure{
+    width: 100%; height: 100%;
+}
+
+.puzzle_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: left;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.puzzle_grid_p{
+    margin-left: 35px; 
+    margin-top: 90px;
+    width: 380px; 
+    font-size: 14px;
+}
+
+#img18_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img19_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img20_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#puzzle_whd{
+    width: 1200px;
+    height: 16.8px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+/********************************/
+
+
+/*********** tableware ***********/
+#tableware_grid{
+    width: 1369.2px;
+    height: 300px;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    grid-column-gap: 10px;
+
+}
+
+.tableware_grid_img{
+    width: 450px;
+    height: 300px;    
+}
+
+.tableware_img figure{
+    width: 100%; height: 100%;
+}
+
+.tableware_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: center;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.tableware_grid_p{
+    margin-left: 35px; 
+    margin-top: 110px;
+    width: 380px; 
+    font-size: 14px;
+}
+
+#img21_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img22_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img23_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#tableware_whd{
+    width: 200px;
+    height: 16.8px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+/********************************/
+
+
+/*********** redam ***********/
+#redam_grid{
+    width: 1038.2px;
+    height: 683px;
+
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    grid-column-gap: 130.2px;
+
+}
+
+.redam_grid_img{
+    width: 454px;
+    height: 683px;    
+}
+
+.redam_img figure{
+    width: 100%; height: 100%;
+}
+
+.redam_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: center;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.redam_grid_p{
+    margin-left: 35px; 
+    margin-top: 300px;
+    width: 380px; 
+    font-size: 14px;
+}
+
+#img24_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img25_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+
+#redam_whd{
+    width: 200px;
+    height: 34px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 187px;
+    margin-bottom: 50px;
+}
+/********************************/
+
+#storage_img{
+    width: 100%;
+    height: 692px;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+#storage_whd{
+    width: 200px;
+    height: 34px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 187px;
+    margin-bottom: 0px;
+}
+
+#storage_whd2{
+    width: 800px;
+    height: 30px;
+
+    margin: 0 auto;
+    margin-bottom: 45px;
+
+    text-align: center;
+}
+
+#chair_img{
+    width: 100%;
+    height: 648px;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+#chair_whd{
+    width: 200px;
+    height: 50px;
+
+    position: relative;
+    left: 55px;
+
+    margin-left: 187px;
+    margin-bottom: 0px;
+}
+
+#chair_whd2{
+    width: 800px;
+    height: 50px;
+
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    text-align: center;
+}
+
+/*********** woodworking ***********/
+#woodworking_grid{
+    width: 1369.2px;
+    height: 633px;
+
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    grid-column-gap: 20px;
+
+}
+
+.woodworking_grid_img{
+    width: 633px;
+    height: 633px;    
+}
+
+.woodworking_img figure{
+    width: 100%; height: 100%;
+}
+
+.woodworking_img figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    width: 100%; height: 100%; /*부모 태그와 크기 같게*/
+    background-color: rgba(0, 0, 0, 0.568);
+
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; 
+    left: 0;    
+
+    color: #fff; 
+    text-align: center;
+    /* line-height: 400px; */
+
+    opacity: 0; /* 처음엔 안보이고 */
+
+    transition: 0.3s;
+}
+
+.woodworking_grid_p{
+    margin-left: 35px; 
+    margin-top: 300px;
+    width: 380px; 
+    font-size: 14px;
+}
+
+#img28_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+#img29_div:hover figcaption{ /*참고 사이트: https://ossam5.tistory.com/263 */
+    opacity: 1;
+}
+/********************************/
+
+.bio_outline{
+    height: 250px; 
+    width: 780px; 
+
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#bio{
+    letter-spacing:0.1em;
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+}
+
+.bio_title{
+    width: 310px;
+    height: 17.6px;
+
+    margin-bottom: 30px;
+}
+
+#education_left{
+    width: 400px;
+    height: 174px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+#education_right{
+    width: 380px;
+    height: 157.2px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#work_left{
+    width: 530px;
+    height: 174px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+
+#work_left li::marker{
+    font-size: 11px;
+}
+
+#work_right{
+    width: 250px;
+    height: 157.2px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#extra_left{
+    width: 520px;
+    height: 174px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+
+#extra_left li::marker{
+    font-size: 11px;
+}
+
+#extra_right{
+    width: 260px;
+    height: 157.2px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#awards_left{
+    width: 525px;
+    height: 174px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+
+#awards_right{
+    width: 253px;
+    height: 157.2px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#exhibition_left{
+    width: 525px;
+    height: 174px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+
+#exhibition_right{
+    width: 253px;
+    height: 157.2px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#skills_left{
+    width: 325px;
+    height: 174px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+
+#skills_right{
+    width: 453px;
+    height: 157.2px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#language_left{
+    width: 525px;
+    height: 70px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    float: left;
+}
+
+#language_right{
+    width: 253px;
+    height: 70px;
+
+    margin-top: 10px;
+    margin-bottom: 38px;
+
+    float: left;
+}
+
+#contact{
+    letter-spacing:0.1em;
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+}
+
+#mail{   
+    margin: 0 auto;
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+#instagram{
+    width: 100%;
+    height: 80px;
+
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color:rgb(222, 255, 245);
+}

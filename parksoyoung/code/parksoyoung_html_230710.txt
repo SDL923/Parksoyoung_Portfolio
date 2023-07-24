@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body style="overflow: scroll;">
+    
+    <nav class="menu_frame">
+        <ul>
+            <li>
+                <div>
+                    <p>SOYOUNG PARK</p>
+                </div>
+            </li>
+            <li style="width: 805px;"></li>
+            <li>
+                <div>
+                    <p>HOME</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>ABOUT</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>PORTFOLIO</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>BIO</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>CONTACK</p>
+                </div>
+            </li>
+
+
+        </ul>
+    </nav>
+
+    <div id="title">
+        <div>
+            <p style="text-align: center;">
+                <span id="title1_1">SOYOUNG PARK</span>
+            </p>
+        </div>
+
+        <div">
+            <p style="text-align: center;">
+                <span id="title1_2">PRODUCT &amp; FURNITURE DESIGN</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="vertical_line"></div>
+
+    <div>
+        <h2 style="text-align: center;">
+            <span id="about">01 about</span>
+        </h2>
+    </div>
+
+    <img id="img2" src="image/img2.webp" alt="no img">
+
+    <div id="introduction">
+        <p id="introduction_p">
+            <span>Soyoung Park is a product and furniture designer based in Seoul. She is currently studying in Hongik University as a Woodworking and Furniture Design major and an Industrial Product Design minor.</span>
+        </p>
+    </div>
+
+    <div id="click_for_more">
+        <span>aaaaa</span> 
+
+
+    </div>
+
+    <div class="vertical_line"></div>
+
+    <div style="width: 1519.2px; height: 21px; margin-bottom: 53px;"></div>
+
+    <div id="portfolio">
+        <h2 id="portfolio_h2">
+            <sapn>02 portfolio</sapn>
+        </h2>
+    </div>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Pick-nic [bench-for-two]</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> <!--inline 방식으로 margin-bottom을 7px로 해준다, 안하면 css파일에적은 horizontal_line 클레스의 값 16px로 적용됨-->
+
+    <div class="title2_explain">
+        <h4 class="title2_explain_h4">
+            <span>International Busan Design Award(IBDA) Idea Award</span>
+        </h4>
+    </div>
+
+    <div id="picknic_grid">
+        <div class="picknic_img" id="img3_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="picknic_grid_img" src="image/img3.webp" alt="no img">
+                <figcaption>
+                    <p class="picknic_grid_p">최근 사용이 늘고 있는 아웃도어 용품 가운데 플라스틱 등 영구폐기되지 않는 소재가 많이 사용되는 것을 보고 휴대성과 친환경성을 모두 만족시킬 수 있는 방법을 고민해봤다. 조립식가구를 분리하여 포장을 최소화한 ‘flat-pack’ 가구와 프라모델 조각을 조립해 종이비행기를 만들었던 기억이 저에게 영감을 주었다. 허니콤 보드 한 장에 조립 가구 부품을 넣은 뒤 이를 떼어내 조립할 수 있다면 고민한 두 마리 토끼를 잡을 수 있을 것으로 생각했다.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="picknic_img" id="img4_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="picknic_grid_img" src="image/img4.webp" alt="no img">
+                <figcaption>
+                    <p class="picknic_grid_p">I was inspired by the ‘flat-pack’ furniture and my childhood memory of assembling pieces from a plastic model. Thus, furniture parts are included in one sheet of honeycomb cardboard and one can easily assemble them into a bench.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="picknic_img" id="img5_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="picknic_grid_img" src="image/img5.webp" alt="no img">
+                <figcaption>
+                    <p class="picknic_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="picknic_img" id="img6_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="picknic_grid_img" src="image/img6.webp" alt="no img">
+                <figcaption>
+                    <p class="picknic_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="picknic_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>887*487*520 (mm)</span>
+        </h4>
+    </div>
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>book:chak</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> 
+
+    <div id="funded">
+        <h4 id="funded_h4">
+            <a href="https://tumblbug.com/jeso?ref=%EA%B2%80%EC%83%89%2F%ED%82%A4%EC%9B%8C%EB%93%9C" target="self" rel="noreferrer noopener" style="color: rgb(160, 167, 203);">
+                <span>433% funded in Tumblbug</span>
+            </a>
+        </h4>
+    </div>
+
+    <div id="bookchak_img">
+        <img src="image/img7.webp" alt="no img" style="width: 771px; height: 514px;">
+    </div>
+
+    <div id="viewmore">
+    </div>
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>The Bedtime Guardian</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> 
+
+    <div class="title2_explain">
+        <h4 class="title2_explain_h4">
+            <span>The 55th Korea International Design Award winner</span>
+        </h4>
+    </div>
+
+
+    <div id="bedtime_grid">
+        <div class="bedtime_img" id="img8_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="bedtime_grid_img" src="image/img8.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p">북유럽풍 블라인드에서 형태적 모티브를 얻은 디자인이다. 블라인드에서 햇살이 스며들어와 방의 전체적인 분위기를 따뜻하게 해주고, 창살을 움직이면서 햇살을 조절하며 방의 분위기를 전환할 수도 있는 것이 북유럽풍 블라인드의 특징이다. 햇살이 창살 사이로 스며드는 것을 가구에서도 표현한 것과 같이, 블라인드의 형태적인 특징을 살려서 소비자에게 마음의 따뜻함과 안정감을 선사한다. 이 가구는 창문의 비율로 맞춘 직사각형 형태로, 소박해 보이면서도 여러 기능성을 갖추고 있다. 또한 가구의 규모가 크지 않아서 침대 옆에 배치해도 공간을 많이 차지하지 않을뿐더러, 책꽂이, 수납공간 그리고 조명의 기능을 합니다. 아랫부분은 조명의 양과 방향을 조절하는 창살의 역할을 하지만, 이 부분을 열면 안쪽에 수납공간이 있는 반전 매력이 있다. 마지막으로, 소재를 전부 목재로 하여 친환경적인 동시에, 방 분위기를 따뜻하게 해준다.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bedtime_img" id="img9_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="bedtime_grid_img" src="image/img9.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p">The main concept of the Bedtime Guardian is the Northern European window blinds. The sun shines through these window blinds, giving off a warm atmosphere throughout the room. One can also control the window blinds to adjust the sunlight and change the atmosphere of the room. These particular characteristics of the Northern European window blinds are applied to this product. With a simple rectangular shape, the Bedtime Guardian is designed with the ratio of a Northern European window. While taking up not a lot of space, it functions as a book shelf, storage space, and a lamp. Lastly, as an eco-friendly product, is it made out of wood, providing a warm atmosphere within the room.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bedtime_img" id="img10_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="bedtime_grid_img" src="image/img10.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="bedtime_img" id="img11_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="bedtime_grid_img" src="image/img11.webp" alt="no img">
+                <figcaption>
+                    <p class="bedtime_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>  
+    <div id="bedtime_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>887*487*520 (mm)</span>
+        </h4>
+    </div>
+
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Loi [Lean-on-it]</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> 
+
+    <div id="Loi_grid">
+        <div class="Loi_img" id="img12_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="Loi_grid_img" src="image/img12.jpg" alt="no img">
+                <figcaption>
+                    <p class="Loi_grid_p">A clothing rack that is leaned on the corner. Let's make the corner space useful!</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Loi_img" id="img13_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="Loi_grid_img" src="image/img13.jpg" alt="no img">
+                <figcaption>
+                    <p class="Loi_grid_p">코너에 기대어 사용하는 옷걸이.<br>사람들에게 쉽사리 잊혀지는<br>코너 공간을 더 유용하게!</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Loi_img" id="img14_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="Loi_grid_img" src="image/img14.jpg" alt="no img">
+                <figcaption>
+                    <p class="Loi_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="Loi_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>810*387*1647 (mm)</span>
+        </h4>
+    </div>
+
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>The Express-o</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div>
+
+    <div class="title2_explain">
+        <h4 class="title2_explain_h4">
+            <span>The 16th Gagu Design Award honorable mention</span>
+        </h4>
+    </div>
+
+    <div id="Express_grid">
+        <div class="Express_img" id="img15_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="Express_grid_img" src="image/img15.jpg" alt="no img">
+                <figcaption>
+                    <p class="Express_grid_p">더 에스프레소는 공간 활용을 더욱 중요시하는 요즘 세대의 싱글족을 위한 가구이다. 이 가구는 공간을 많이 차지하지 않으면서도, 한 공간 안에서 여러 기능을 갖추고 있다. 쉽게 어지럽혀지는 커피 테이블 속에 충분한 수납공간이 있어서, 겉으로 보았을 때 깔끔함을 유지한다. 또한 대체적으로 낮은 커피 테이블에서 사용자가 편하게 작업할 수 있도록 상판 일부분을 높낮이 조절이 가능하게 하여 간이 테이블로도 사용할 수 있다. 사용자의 생활패턴을 고려하여, 주방으로 이동할 필요 없이 차가운 음료나 음식을 손쉽게 구할 수 있도록 테이블 안에 미니 냉장고를 배치했다. 이렇게 여러 기능들을 테이블에 적용하여, 불필요한 동선을 최소화한 것이 더 에스프레소의 특징이다.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Express_img" id="img16_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="Express_grid_img" src="image/img16.jpg" alt="no img">
+                <figcaption>
+                    <p class="Express_grid_p">The Express-O is for those who enjoy their “single life”. For these people, who value space utilization, this coffee table has multiple functions without taking up a lot of space. For instance, there is enough storage space inside the table to maintain a clean exterior surface. One can also control the height of a specific part of the table top to work on the table with more comfort. Considering the life pattern of the consumers, a mini-cooler is located inside the table so that people do not have to go to the kitchen to get an ice-cold beverage or food. These following functions are applied to the table to minimize unnecessary movements and to utilize space.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="Express_img" id="img17_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="Express_grid_img" src="image/img17.jpg" alt="no img">
+                <figcaption>
+                    <p class="Express_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="Express_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>1190*495*390 (mm)</span>
+        </h4>
+    </div>
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Puzzlegrounds</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div>
+
+    <div id="puzzle_grid">
+        <div class="puzzle_img" id="img18_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="puzzle_grid_img" src="image/img18.jpg" alt="no img">
+                <figcaption style="text-align: center;">
+                    <p class="puzzle_grid_p">넉다운 아동 가구</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="puzzle_img" id="img19_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="puzzle_grid_img" src="image/img19.jpg" alt="no img">
+                <figcaption>
+                    <p class="puzzle_grid_p">A table and side table for children. The playful colors and shape attract the children’s interest. A puzzle transforming into a table is the main concept. It is also a knock down furniture that requires no hardware, making it easier for parents to assemble and take it apart.</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="puzzle_img" id="img20_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="puzzle_grid_img" src="image/img20.jpg" alt="no img">
+                <figcaption>
+                    <p class="puzzle_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="puzzle_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108); width: 150px; display: inline; margin-left: 462px;">
+            <span>948*786*736 (mm)</span>
+        </h4>
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108); width: 150px; display: inline; margin-left: 337px;">
+            <span>887*487*520 (mm)</span>
+        </h4>
+    </div>
+
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Tableware design</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> 
+
+    <div id="tableware_grid">
+        <div class="tableware_img" id="img21_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="tableware_grid_img" src="image/img21.jpg" alt="no img">
+                <figcaption>
+                    <p class="tableware_grid_p">나뭇잎을 모티브로 디자인한 테이블 웨어<br><br>tableware inspired by leaves</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="tableware_img" id="img22_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="tableware_grid_img" src="image/img22.jpg" alt="no img">
+                <figcaption>
+                    <p class="tableware_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="tableware_img" id="img23_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="tableware_grid_img" src="image/img23.jpg" alt="no img">
+                <figcaption>
+                    <p class="tableware_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="tableware_whd"></div>
+
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span style="margin-left: 110px;">Re-Dam series</span>
+            <span style="font-size: 13px; letter-spacing:0.1em; color: rgb(143, 149, 158);">in scale model</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> 
+
+    <div id="redam_grid">
+        <div class="redam_img" id="img24_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="redam_grid_img" src="image/img24.jpg" alt="no img">
+                <figcaption>
+                    <p class="redam_grid_p">한국 전통 가구 '고비'를 재해석한 와인 렉</p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="redam_img" id="img25_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="redam_grid_img" src="image/img25.jpg" alt="no img">
+                <figcaption>
+                    <p class="redam_grid_p">wine rack<br>inspired from the Korean traditional furniture,<br>Go-bi</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div id="redam_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>200*150*936 (mm)<br>scale: 1/4</span>
+        </h4>
+    </div>
+
+
+
+    <div id="storage_img">
+        <img src="image/img26.webp" alt="no img" style="width: 1038px; height: 692px;">
+    </div>
+
+
+    <div id="storage_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>949*334*1058 (mm)<br>scale: 1/6</span>
+        </h4>
+    </div>
+
+    <div id="storage_whd2">
+        <h4 style="font-size: 18px; color: rgb(108, 108, 108);">
+            <span>Storage inspired by the Korean traditional furniture, 'Jang'</span>
+        </h4>
+    </div>
+
+    <div id="chair_img">
+        <img src="image/img27.webp" alt="no img" style="width: 1038px; height: 648px;">
+    </div>
+
+    <div id="chair_whd">
+        <h4 style="font-size: 14px; color: rgb(108, 108, 108);">
+            <span>chair:   704*700*695(mm)<br>lamp:  276*280*453 (mm)<br>scale: 1/6</span>
+        </h4>
+    </div>
+
+    <div id="chair_whd2">
+        <h4 style="font-size: 18px; color: rgb(108, 108, 108);">
+            <span>chair and lamp</span>
+            <span style="font-size: 14px;"><br>inspired by the Korean traditional 'soban', 'bang-seok', and 'jwa-deung'</span>
+        </h4>
+    </div>
+
+
+    <div class="horizontal_line"></div>
+    <div class="title2">
+        <h2 class="title2_h2">
+            <span>Woodworking Practices</span>
+        </h2>
+    </div>
+    <div class="horizontal_line" style="margin-bottom: 7px;"></div> 
+
+
+    <div id="woodworking_grid">
+        <div class="woodworking_img" id="img28_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="woodworking_grid_img" src="image/img28.webp" alt="no img">
+                <figcaption>
+                    <p class="woodworking_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="woodworking_img" id="img29_div" style="position: relative">
+            <figure style="margin: 0;"> <!--참고 사이트: https://ossam5.tistory.com/263 -->
+                <img class="woodworking_grid_img" src="image/img29.webp" alt="no img">
+                <figcaption>
+                    <p class="woodworking_grid_p"></p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+
+
+    <div class="vertical_line"></div>
+    <div>
+        <h2 style="text-align: center;">
+            <span id="bio">03 bio</span>
+        </h2>
+    </div>
+
+
+
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>EDUCATION</span>
+        </p>
+    </div>
+    <div id="education_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Hongik University</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Woodworking and Furniture Design major</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Industrial Product Design minor</span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">University of Southern California</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Art and Design major</span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;">Northern Valley Regional High School of Old Tappan</span>
+        </p>
+    </div>
+    <div id="education_right">
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">Anticipated graduation: February 2022</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">September 2016 – January 2017</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; height: 16px; margin: 0;">
+            <span class="wixGuard wixui-rich-text__text"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">September 2012 – June 2016</span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span> </span>
+        </p>       
+    </div>
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>WORK EXPERIENCE</span>
+        </p>
+    </div>
+    <div id="work_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Hed Urban Studio </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Marketing Intern</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin-bottom: 5px;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <li style="font-size:11px;">Create catalogue, brochure, and packages with Adobe Indesign, Photoshop, and Illustrator</li>
+            <li style="font-size:11px;">Manage Instagram posts</li>
+        </p>
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Kmong</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Kor-Eng / Eng-Kor Translator</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin-bottom: 5px;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <li style="font-size:11px;">Translate websites, thesis paper, article, video subtitles, company powerpoint, personal email, and etc.</li>
+        </p>
+    </div>
+    <div id="work_right">
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">March 2021 – May 2021</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">December 2016 – Present</span>
+        </p>
+    </div>
+
+
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>EXTRACURRICULAR ACTIVITIES</span>
+        </p>
+    </div>
+
+    <div id="extra_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Design Club</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">President</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <li style="font-size:11px;">Designed weekly brochures for an organization</li>
+            <li style="font-size:11px;">Designed pamphlets, X banners, and banners for events</li>
+            <li style="font-size:11px;">Designed stickers and packages for event souvenirs</li>
+            <li style="font-size:11px;">Designed t-shirts for an annual event</li>
+        </p>   
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Ad Fontes Musical</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Creative team assistant</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <li style="font-size:11px;">Proposed ideas for the set design</li>
+            <li style="font-size:11px;">Produced products needed for the musical</li>
+        </p>
+  
+    </div>
+    <div id="extra_right">
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">March 2018 – Present</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 14px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">September 2017</span>
+        </p>     
+    </div>
+
+
+
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>AWARDS</span>
+        </p>
+    </div>
+
+    <div id="awards_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">For Those Who Make The World</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">2nd place</span>
+        </p>   
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">International Busan Design Award(IBDA) Award</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Idea award</span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">The 55th Korea International Design Award</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">winner</span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em;">
+            <span style="font-size:14px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">16th Gagu Design Competition</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Honorable mention</span>
+        </p>
+    </div>
+    <div id="awards_right">
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">June 2021</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">June 2021</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">December 2020</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">November 2020</span>
+        </p>    
+    </div>
+
+
+
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>EXHIBITION</span>
+        </p>
+    </div>
+
+    <div id="exhibition_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Woodworking & Furniture Design Project Exhibition</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Annual exhibition</span>
+        </p>   
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">20th page, 12th line  Exhibition</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Somang Young Artist Exhibition</span>
+        </p>
+        
+    </div>
+    <div id="exhibition_right">
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">December 2018 – December 2020</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">February 2019</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 13.2px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">October 2018</span>
+        </p>        
+    </div>
+
+
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>SKILLS</span>
+        </p>
+    </div>
+
+    <div id="skills_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Photoshop_Advanced</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Illustrator_Advanced</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Autocad_Advanced</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">3D Rhino_Advanced</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Keyshot _Advanced</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">3D Printing</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">3ds Max_ Intermediate</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+    </div>
+    <div id="skills_right">
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">Graphic Technology Qualification March 2020</span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 16.8px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:11px; line-height:1.2em; height: 5px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0; text-align: right;">
+            <span style="font-size:14px;">November 2020</span>
+        </p>        
+    </div>
+
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+    <div class="bio_title">
+        <p style="font-size:15px; line-height:1.2em; font-weight: bold;">
+            <span>LANGUAGE</span>
+        </p>
+    </div>
+
+    <div id="language_left">
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">Korean_Native</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 7px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">English_Advanced</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; margin: 0;">
+            <span style="font-size:11px;">Resided in the U.S. for 9 years</span>
+        </p>  
+        <p style="font-size:11px; line-height:1.2em; height: 7px; margin: 0;">
+            <span style="font-size:11px;"> </span>
+        </p>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">TOEIC 990</span>
+        </p>  
+    </div> 
+
+    <div id="language_right"> 
+    </div>      
+
+    <div style="clear: left;"></div>  <!-- education_right에서 float:left를 빼면 education_right div 위치가 이상해진다... 그래서 마지막에 style="clear: left;"로 float:left를 멈춰준다 -->
+
+    <div class="vertical_line"></div>
+    <div>
+        <h2 style="text-align: center;">
+            <span id="contact">04 contact</span>
+        </h2>
+    </div>
+
+    <div style="width: 10%; height: 80px;"></div>
+
+    <div id="instagram">
+        <p style="height: 10px; margin: 0;"></p>
+        <div>
+            <a href="https://www.instagram.com/bakso_sobak/" target="_blank" style="width: 42px; height: 42px;">
+                <img src="image/instagram_logo.png" alt="no img" style="width: 42px; height: 42px;">
+            </a>
+        </div>
+        <p style="font-size:14px; line-height:1.2em; margin: 0;">
+            <span style="font-size:14px;">© 2020 by Soyoung Park</span>
+        </p> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
